@@ -17,6 +17,7 @@ return new class extends Migration
             $table->decimal('amount', 10, 2); 
             $table->unsignedBigInteger('service_category_id');
             $table->foreign('service_category_id')->references('id')->on('service_categories');
+            $table->decimal('commission', 10, 2)->default(0); 
             $table->timestamps();
         });
     }

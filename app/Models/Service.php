@@ -14,6 +14,7 @@ class Service extends Model
         'name',
         'amount',
         'servicecategoryid',
+        'commission',
     ];
 
     public function category()

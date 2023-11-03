@@ -19,6 +19,7 @@ class ServiceFactory extends Factory
         return [
             'name' => $this->faker->word,
             'amount' => $this->faker->randomFloat(2, 10, 200),
+            'commission' => $this->faker->randomFloat(2, 10, 200),
             'service_category_id' => ServiceCategory::inRandomOrder()->first()->id,
         ];
     }
