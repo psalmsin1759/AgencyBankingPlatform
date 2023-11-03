@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T12:59:51.573Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="cvZXSJZ0cEdXQJh0W8rK" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T14:38:14.370Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="GCe_MUOL-BIBZElG583c" version="22.0.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="908" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2008" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="78961159f06e98e8-17" value="Agents" style="swimlane;html=1;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fillColor=none;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
-          <mxGeometry x="80" y="-280" width="160" height="350" as="geometry" />
+          <mxGeometry x="80" y="-280" width="160" height="356" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-10" value="+ id: bigint(20)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="78961159f06e98e8-17">
           <mxGeometry y="26" width="160" height="28" as="geometry" />
@@ -297,6 +297,87 @@
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-77" value="" style="line;html=1;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="6kIQ4EOXt6WHOdmxmBEa-65">
           <mxGeometry y="240" width="230" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-83" value="&lt;h1&gt;API ENDPOINTS&lt;/h1&gt;&lt;div&gt;&lt;ul&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;POST /api/register: Register a new agent and returns a token&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;POST /api/login: Agent login and returns a token&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;The following endpoints below would require the token returned at register/login to be passed in the header as an api/bearer token&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;Services/Products&lt;/b&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;GET /api/getCategory: returns the products/service categories and paginate&lt;/li&gt;&lt;li&gt;GET /api/getServicesByCategory/{categoryid} : returns the products/services by categoryid and paginate&lt;/li&gt;&lt;li&gt;GET /api/getService/{serviceid} : returns the service details and service form data&lt;/li&gt;&lt;li&gt;POST /api/makePayment : make payment for the service/product and logs the transaction&lt;/li&gt;&lt;li&gt;GET /api/transaction/{agentid}: get agents transaction and paginate&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;Wallet&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;POST /api/fundwallet : funds the wallet of the agent and logs the transaction&lt;/li&gt;&lt;li&gt;GET /api/getbalance/{agentid}: returns the balance of the agent wallet&lt;/li&gt;&lt;li&gt;POST /api/checkout: convert wallet to cash&lt;/li&gt;&lt;li&gt;GET /api/getcommission/{agentid} : returns agent commission earned&lt;/li&gt;&lt;li&gt;POST /api/commisionToWallet : convert earned commission to wallet&lt;/li&gt;&lt;li&gt;GET /api/getWalletTransaction/{agentid} : returns all agent transactions&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;Agent&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;GET /api/agent/{agentid} : returns the agent information&lt;/li&gt;&lt;li&gt;PUT /api/agent/{agentid} : update agent information&lt;/li&gt;&lt;li&gt;DELETE /api/agent/{agentid} : deactivate account&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b&gt;Admin&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;POST /api/admin/login : Admin login and returns a token&lt;/li&gt;&lt;li&gt;GET /api/admin/viewAllAgents : returns all the agents&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;GET /api/admin/viewAllTransactions : returns all the transactions and paginate&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;GET /api/admin/getAllServices : returns all services&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;POST /api/admin/service : add a service to the platform&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;PUT /api/admin/service/{serviceid} : update service data&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;DELETE /api/admin/service/{serviceid} : delete a service&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="700" width="820" height="670" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-84" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;High Level Architecture&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1510" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-85" target="6kIQ4EOXt6WHOdmxmBEa-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-85" value="Agent/User (Mobile app, Web, USSD)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1600" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-86" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1590" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-87" target="6kIQ4EOXt6WHOdmxmBEa-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-87" target="6kIQ4EOXt6WHOdmxmBEa-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-87" target="6kIQ4EOXt6WHOdmxmBEa-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-87" value="Load Balancer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1615" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-88" target="6kIQ4EOXt6WHOdmxmBEa-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-88" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1730" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-91" value="https://" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="1600" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-92" target="6kIQ4EOXt6WHOdmxmBEa-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-92" value="Service API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1755" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-93" target="6kIQ4EOXt6WHOdmxmBEa-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-93" target="6kIQ4EOXt6WHOdmxmBEa-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-93" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1600" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-94" target="6kIQ4EOXt6WHOdmxmBEa-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-94" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1460" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-95" value="Service API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-96" target="6kIQ4EOXt6WHOdmxmBEa-106">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-96" value="Service API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1485" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-103" value="" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1400" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-104" value="Products/Service DB" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="495" y="1360" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-107" value="Cache&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1505" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-116" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1790" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
