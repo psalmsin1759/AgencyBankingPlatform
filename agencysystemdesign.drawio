@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T16:26:29.466Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="AXg4HJrIfHI5oC-0dt4k" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T11:09:23.976Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="q7FV60QqJxw3bLi5Fmsh" version="22.0.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="908" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -280,6 +280,12 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="250" y="259.88235294117635" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-1" value="&lt;h1&gt;FUNCTIONAL REQUIREMENT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agents should be able to create account, login, logout, update profile, deactivate account&lt;/li&gt;&lt;li&gt;Agents should be able to browse products/services by category, search and filter products/services&lt;/li&gt;&lt;li&gt;Agents should be able to view balance, fund balance and view transaction reports&lt;/li&gt;&lt;li&gt;Agents should be able to earn commission for every transactions&lt;/li&gt;&lt;li&gt;Platform should maintain fee catalogue for various services&lt;/li&gt;&lt;li&gt;Agents should be able to earn fee based on sharing formulas&lt;/li&gt;&lt;li&gt;Platform should be able to handle and manage over 1 million agents&lt;/li&gt;&lt;li&gt;Platform should be able to handle 10 million transactions per day (Assuming each agents average 10 transactions per day)&lt;/li&gt;&lt;li&gt;Enough storage capacity to handle that kind of transaction&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="-390" width="730" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-2" value="&lt;h1&gt;NON FUNCTIONAL REQUIREMENT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scalability&lt;/li&gt;&lt;li&gt;Latency: View Services/Products, Search etc&lt;/li&gt;&lt;li&gt;Security&lt;/li&gt;&lt;li&gt;Availability&lt;/li&gt;&lt;li&gt;Performance&lt;/li&gt;&lt;li&gt;Fault-tolerance&lt;/li&gt;&lt;li&gt;Able to handle concurrent updates to inventory and prevent overselling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="85" y="-170" width="730" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
