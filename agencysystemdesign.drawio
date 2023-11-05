@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-04T09:59:41.304Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3o5reh3Toy1u3F3rg_4G" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-05T16:08:43.476Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="RJIN0DOyF2sGB2QVSUC6" version="22.0.8" type="github">
   <diagram name="Page-1" id="9f46799a-70d6-7492-0946-bef42562c5a5">
     <mxGraphModel dx="2008" dy="1384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -135,7 +135,7 @@
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-1" value="&lt;h1&gt;FUNCTIONAL REQUIREMENT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Agents should be able to create account, login, logout, update profile, deactivate account&lt;/li&gt;&lt;li&gt;Agents should be able to browse products/services by category, search and filter products/services&lt;/li&gt;&lt;li&gt;Agents should be able to view balance, fund balance and view transaction reports&lt;/li&gt;&lt;li&gt;Agents should be able to earn commission for every transactions&lt;/li&gt;&lt;li&gt;Platform should maintain fee catalogue for various services&lt;/li&gt;&lt;li&gt;Agents should be able to earn fee based on sharing formulas&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="-790" width="730" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-2" value="&lt;h1&gt;NON FUNCTIONAL REQUIREMENT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scalability&lt;/li&gt;&lt;li&gt;Latency: View Services/Products, Search etc&lt;/li&gt;&lt;li&gt;Security&lt;/li&gt;&lt;li&gt;Availability&lt;/li&gt;&lt;li&gt;Performance&lt;/li&gt;&lt;li&gt;Fault-tolerance&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Platform should be able to handle and manage over 1 million agents&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Platform should be able to handle 10 million transactions per day (Assuming each agents average 10 transactions per day&lt;br&gt;&lt;/li&gt;&lt;li&gt;Able to handle concurrent updates to inventory and prevent overselling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-2" value="&lt;h1&gt;NON FUNCTIONAL REQUIREMENT&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Scalability&lt;/li&gt;&lt;li&gt;Latency: View Services/Products, Search etc&lt;/li&gt;&lt;li&gt;Security&lt;/li&gt;&lt;li&gt;Availability&lt;/li&gt;&lt;li&gt;Performance&lt;/li&gt;&lt;li&gt;Fault-tolerance&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Platform should be able to handle and manage over 1 million agents&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Platform should be able to handle 10 million transactions per day (Assuming each agent average 10 transactions per day&lt;br&gt;&lt;/li&gt;&lt;li&gt;Able to handle concurrent updates to inventory and prevent overselling&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="80" y="-590" width="730" height="200" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;DATABASE SCHEMA&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -376,6 +376,12 @@
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-116" target="6kIQ4EOXt6WHOdmxmBEa-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-116" target="kqECuKR96W50w9IZJhCZ-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-116" target="kqECuKR96W50w9IZJhCZ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-116" value="Purchase Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="1785" width="120" height="60" as="geometry" />
         </mxCell>
@@ -383,16 +389,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-117" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="810" y="1785" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="1760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-118" target="kqECuKR96W50w9IZJhCZ-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-118" value="Transaction DB" style="shape=datastore;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="1910" width="100" height="70" as="geometry" />
+          <mxGeometry x="535" y="1920" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.508;entryY=0.283;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-116" target="6kIQ4EOXt6WHOdmxmBEa-118" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-121" value="Email/SMS/Push Notifcation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="805" y="1860" width="130" height="30" as="geometry" />
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-121" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;Email/SMS/Push Notifcation&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="850" y="1835" width="130" height="10" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-124" target="6kIQ4EOXt6WHOdmxmBEa-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -407,19 +416,58 @@
           <mxGeometry x="510" y="1430" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-133" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;/api/makePayment&lt;/font&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="520" y="1830" width="130" height="40" as="geometry" />
+          <mxGeometry x="600" y="1745" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-136" value="Message Queue" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="6kIQ4EOXt6WHOdmxmBEa-136" value="Message Broker" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6kIQ4EOXt6WHOdmxmBEa-139" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Pub/Sub&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="700" y="1570" width="80" height="30" as="geometry" />
+          <mxGeometry x="740" y="1590" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="ikJqnM-x0uPepBsr5lFS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ikJqnM-x0uPepBsr5lFS-1" target="6kIQ4EOXt6WHOdmxmBEa-136">
+        <mxCell id="ikJqnM-x0uPepBsr5lFS-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ikJqnM-x0uPepBsr5lFS-1" target="6kIQ4EOXt6WHOdmxmBEa-136" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ikJqnM-x0uPepBsr5lFS-1" value="Refund Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ikJqnM-x0uPepBsr5lFS-1" value="Refund Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kqECuKR96W50w9IZJhCZ-1" target="kqECuKR96W50w9IZJhCZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-1" value="Transaction DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1920" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-2" value="Transaction DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="1920" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="kqECuKR96W50w9IZJhCZ-3" target="6kIQ4EOXt6WHOdmxmBEa-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-3" value="Transaction DB" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1920" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.095;entryY=0.443;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6kIQ4EOXt6WHOdmxmBEa-116" target="kqECuKR96W50w9IZJhCZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-7" value="M" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-8" value="P" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-9" value="P" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-10" value="P" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="840" y="2010" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-14" value="&lt;font style=&quot;font-size: 7px;&quot;&gt;Redis/Memcache&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1400" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-20" value="&lt;h1&gt;MONITORING TOOLS&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Application Performance Tools: New Relics, CloudWatch, Google Cloud Monitoring&lt;/li&gt;&lt;li&gt;User behaviour: Google Analytics&lt;/li&gt;&lt;li&gt;Service Monitoring: Google Pub/sub monitoring dashboard, RabittMQ management plugin, Amazon MQ management portal&lt;/li&gt;&lt;li&gt;API Performance Tool: Apache Benchmark&amp;nbsp;&lt;/li&gt;&lt;li&gt;Load Test: Apache JMeter&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2170" width="700" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kqECuKR96W50w9IZJhCZ-21" value="&lt;h1&gt;Deployment Strategy&lt;/h1&gt;&lt;p&gt;Since the consideration is high availability, I would propose a Blue-Green Deployment strategy.&lt;/p&gt;We can create duplicate environments (blue and green) and switch traffic from one to the other when deploying updates. This ensures continuous availability." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2390" width="630" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
